@@ -1,0 +1,21 @@
+$liColor: rgb(40, 200, 15);
+
+html { font-size: 62.5%;}
+ul {
+	list-style-type: none;
+}
+li {
+	padding: 20px;
+	font-size: 2.2rem;
+	background-color: $liColor;
+	color: white;
+	font-weight: bold;
+	border: 2px solid white;
+	width: 18%;
+}
+li:hover, li:focus {
+	background-color: lighten($liColor, 3%);	
+}
+p {
+	font-size: 1.6rem;
+}
